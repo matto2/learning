@@ -1,10 +1,10 @@
 ---
 pagination:
     data: characters
-    alias: characters
+    alias: character
     size: 1
-layout: liquid.layout
-permalink: '/characters/{{characture.name|slug}}'
+layout: layout.liquid
+permalink: '/characters/{{character.name|slug}}'
 title: Rick & Morty Characters
 tag: characters
 ---
